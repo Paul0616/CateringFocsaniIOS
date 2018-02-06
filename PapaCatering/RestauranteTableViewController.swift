@@ -17,7 +17,6 @@ class RestauranteTableViewController: UITableViewController {
     var restauranteNet = [RestaurantModel]() //array ce contine datele incarcate de pe net
     var databasePath = String()
 
-
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -102,7 +101,7 @@ class RestauranteTableViewController: UITableViewController {
     func loadData(){
         restauranteNet.removeAll()
         self.tableView.reloadData()
-        Alamofire.request("https://www.duoline.ro/catering/getRestaurante.php")
+        Alamofire.request(WebServerFiles.WEB_LISTA_RESTAURANTE)
             .responseJSON{(responseData) -> Void in
                 if((responseData.result.value) != nil){
                     let swiftyJsonVar = JSON(responseData.result.value!)

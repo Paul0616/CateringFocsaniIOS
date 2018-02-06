@@ -40,6 +40,8 @@ class ConfirmaComandaViewController: UIViewController, UITableViewDataSource {
         imageView.contentMode = .scaleAspectFill
         self.view.addSubview(imageView)
         self.view.sendSubview(toBack: imageView)
+        adresaLabel.text = ""
+        profilLabel.text = ""
         loadIdentificare()
     }
     
@@ -81,7 +83,7 @@ class ConfirmaComandaViewController: UIViewController, UITableViewDataSource {
         //TRIMIT CU ALAMOFIRE
         let dateconectare: String = (restaurant?.dbname_ip)! + "," + (restaurant?.dbname)! + "," + (restaurant?.passw)!
         let param = ["sirjson": jsonString!, "dateconectare": dateconectare]
-        Alamofire.request((restaurant.ip + "/setComanda.php"), parameters: param)
+        Alamofire.request((restaurant.ip + "/\(WebServerFiles.COMANDA)"), parameters: param)
             .responseJSON{(responseData) -> Void in
                 print(responseData.result.isSuccess)
                 debugPrint(responseData.response!.statusCode)
@@ -89,7 +91,7 @@ class ConfirmaComandaViewController: UIViewController, UITableViewDataSource {
         //CRESC SCORUL RESTAURANTULUI
         actualizeazaScorRestaurant()
         //AFISEZ MESAJUL DE SUCCES
-        showToast(messages: restaurant.mesajCatering, background: UIColor.black.withAlphaComponent(0.6))
+       // showToast(messages: restaurant.mesajCatering, background: UIColor.black.withAlphaComponent(0.6))
        let newView = self.storyboard!.instantiateViewController(withIdentifier: "mesajModal") as! MesajModalViewController
         newView.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
         

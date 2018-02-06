@@ -75,7 +75,7 @@ class AfisareCategoriiCollectionViewController: UICollectionViewController, UICo
         categorii.removeAll()
         self.collectionView?.reloadData()
         let dateconectare: String = (restaurant?.dbname_ip)! + "," + (restaurant?.dbname)! + "," + (restaurant?.passw)!
-        let url: String = (restaurant?.ip)! + "/getCategorii.php"
+        let url: String = (restaurant?.ip)! + "/\(WebServerFiles.CATEGORIA)"
         Alamofire.request(url, parameters: ["dateconectare": dateconectare])
             .responseJSON{(responseData) -> Void in
                 if((responseData.result.value) != nil){

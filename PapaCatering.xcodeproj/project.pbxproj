@@ -39,6 +39,7 @@
 		DAB100DD2029D927004A4DE9 /* IstoricTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */; };
 		DAB100DF2029D969004A4DE9 /* IstoricParentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */; };
 		DAB100E12029D981004A4DE9 /* IstoricChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */; };
+		DAB100E3202A22B2004A4DE9 /* WebServerFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100E2202A22B2004A4DE9 /* WebServerFiles.swift */; };
 		DAD9F48620285EC300B93E3B /* AdreseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48520285EC300B93E3B /* AdreseTableViewController.swift */; };
 		DAD9F48820285F9700B93E3B /* AdreseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48720285F9700B93E3B /* AdreseTableViewCell.swift */; };
 		DAD9F48A2028636C00B93E3B /* AdresaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4892028636C00B93E3B /* AdresaModel.swift */; };
@@ -103,6 +104,7 @@
 		DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricTableViewController.swift; sourceTree = "<group>"; };
 		DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricParentTableViewCell.swift; sourceTree = "<group>"; };
 		DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricChildTableViewCell.swift; sourceTree = "<group>"; };
+		DAB100E2202A22B2004A4DE9 /* WebServerFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerFiles.swift; sourceTree = "<group>"; };
 		DAD9F48520285EC300B93E3B /* AdreseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdreseTableViewController.swift; sourceTree = "<group>"; };
 		DAD9F48720285F9700B93E3B /* AdreseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdreseTableViewCell.swift; sourceTree = "<group>"; };
 		DAD9F4892028636C00B93E3B /* AdresaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresaModel.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		DA2A47C120236E79007D79B1 /* PapaCatering */ = {
 			isa = PBXGroup;
 			children = (
+				DAB100E2202A22B2004A4DE9 /* WebServerFiles.swift */,
 				DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */,
 				DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */,
 				DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */,
@@ -396,6 +399,7 @@
 				DAAD2E292026014A0042E44D /* RestaurantTableViewCell.swift in Sources */,
 				DA835A5220272B0E006AACA3 /* RezervariViewController.swift in Sources */,
 				DAD9F4A82029107200B93E3B /* ConfirmaComandaTableViewCell.swift in Sources */,
+				DAB100E3202A22B2004A4DE9 /* WebServerFiles.swift in Sources */,
 				DA835A60202788E3006AACA3 /* ProfileTableViewCell.swift in Sources */,
 				DA94D6542026119D00FE2F6F /* RestaurantModel.swift in Sources */,
 				DAD9F48E202870DE00B93E3B /* CategoriiCollectionViewCell.swift in Sources */,

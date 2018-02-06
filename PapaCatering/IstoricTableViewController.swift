@@ -33,7 +33,7 @@ class IstoricTableViewController: UITableViewController {
         loadDB()
         let dateconectare: String = (restaurant?.dbname_ip)! + "," + (restaurant?.dbname)! + "," + (restaurant?.passw)!
         let param = ["persoana": persoana, "dateconectare": dateconectare]
-        Alamofire.request((restaurant.ip + "/getIstoric1.php"), parameters: param)
+        Alamofire.request((restaurant.ip + "/\(WebServerFiles.ISTORIC)"), parameters: param)
             .responseJSON{(responseData) -> Void in
                 if((responseData.result.value) != nil){
                     //debugPrint(responseData.debugDescription)
