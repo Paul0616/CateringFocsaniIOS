@@ -16,6 +16,46 @@
 		DA2A47D52023798E007D79B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA2A47D42023798E007D79B1 /* GoogleService-Info.plist */; };
 		DA2A47DE202395A7007D79B1 /* UndeMancamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A47DD202395A7007D79B1 /* UndeMancamTableViewCell.swift */; };
 		DA2A47E22023A273007D79B1 /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA2A47E12023A273007D79B1 /* PoiretOne-Regular.ttf */; };
+		DA835A5220272B0E006AACA3 /* RezervariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5120272B0E006AACA3 /* RezervariViewController.swift */; };
+		DA835A5420272BAD006AACA3 /* IconCategorieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5320272BAD006AACA3 /* IconCategorieCollectionViewCell.swift */; };
+		DA835A582027335F006AACA3 /* LocatieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A572027335F006AACA3 /* LocatieModel.swift */; };
+		DA835A5A20273D0C006AACA3 /* ConfirmaRezervareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5920273D0C006AACA3 /* ConfirmaRezervareaViewController.swift */; };
+		DA835A5C20274D8B006AACA3 /* MesajRezervareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5B20274D8B006AACA3 /* MesajRezervareViewController.swift */; };
+		DA835A5E2027810D006AACA3 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5D2027810D006AACA3 /* ProfileTableViewController.swift */; };
+		DA835A60202788E3006AACA3 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A5F202788E3006AACA3 /* ProfileTableViewCell.swift */; };
+		DA835A6220278A60006AACA3 /* ProfilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A6120278A60006AACA3 /* ProfilModel.swift */; };
+		DA835A6420279086006AACA3 /* ProfileModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA835A6320279086006AACA3 /* ProfileModalViewController.swift */; };
+		DA94D6542026119D00FE2F6F /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94D6532026119D00FE2F6F /* RestaurantModel.swift */; };
+		DA94D6562026794400FE2F6F /* IntroRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94D6552026794400FE2F6F /* IntroRestaurantViewController.swift */; };
+		DAAD2E1F2025CCE40042E44D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E152025CCE10042E44D /* FMDatabaseQueue.m */; };
+		DAAD2E202025CCE40042E44D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E162025CCE20042E44D /* FMDatabasePool.m */; };
+		DAAD2E212025CCE40042E44D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E192025CCE30042E44D /* FMResultSet.m */; };
+		DAAD2E222025CCE40042E44D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E1C2025CCE40042E44D /* FMDatabase.m */; };
+		DAAD2E232025CCE40042E44D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E1D2025CCE40042E44D /* FMDatabaseAdditions.m */; };
+		DAAD2E272025FEB70042E44D /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E262025FEB70042E44D /* BorderedButton.swift */; };
+		DAAD2E292026014A0042E44D /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD2E282026014A0042E44D /* RestaurantTableViewCell.swift */; };
+		DAB100D92029C172004A4DE9 /* MesajModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100D82029C172004A4DE9 /* MesajModalViewController.swift */; };
+		DAB100DB2029D88D004A4DE9 /* IstoricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100DA2029D88C004A4DE9 /* IstoricModel.swift */; };
+		DAB100DD2029D927004A4DE9 /* IstoricTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */; };
+		DAB100DF2029D969004A4DE9 /* IstoricParentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */; };
+		DAB100E12029D981004A4DE9 /* IstoricChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */; };
+		DAD9F48620285EC300B93E3B /* AdreseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48520285EC300B93E3B /* AdreseTableViewController.swift */; };
+		DAD9F48820285F9700B93E3B /* AdreseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48720285F9700B93E3B /* AdreseTableViewCell.swift */; };
+		DAD9F48A2028636C00B93E3B /* AdresaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4892028636C00B93E3B /* AdresaModel.swift */; };
+		DAD9F48C202867CA00B93E3B /* AdreseModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48B202867C900B93E3B /* AdreseModalViewController.swift */; };
+		DAD9F48E202870DE00B93E3B /* CategoriiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F48D202870DE00B93E3B /* CategoriiCollectionViewCell.swift */; };
+		DAD9F4922028712700B93E3B /* AfisareCategoriiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4912028712700B93E3B /* AfisareCategoriiCollectionViewController.swift */; };
+		DAD9F49420287EC200B93E3B /* CategorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F49320287EC200B93E3B /* CategorieModel.swift */; };
+		DAD9F49620287F2900B93E3B /* ProdusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F49520287F2900B93E3B /* ProdusModel.swift */; };
+		DAD9F4982028B5EA00B93E3B /* SemicircularBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4972028B5EA00B93E3B /* SemicircularBtn.swift */; };
+		DAD9F49A2028C14700B93E3B /* ProduseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4992028C14600B93E3B /* ProduseViewController.swift */; };
+		DAD9F49E2028C1E200B93E3B /* ProduseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F49D2028C1E200B93E3B /* ProduseTableViewCell.swift */; };
+		DAD9F4A02028C3E800B93E3B /* CerinteSpeciale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F49F2028C3E800B93E3B /* CerinteSpeciale.swift */; };
+		DAD9F4A22028F36600B93E3B /* CerinteModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4A12028F36600B93E3B /* CerinteModalViewController.swift */; };
+		DAD9F4A42028FF8600B93E3B /* ConfirmaComandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4A32028FF8600B93E3B /* ConfirmaComandaViewController.swift */; };
+		DAD9F4A6202907B300B93E3B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4A5202907B200B93E3B /* Card.swift */; };
+		DAD9F4A82029107200B93E3B /* ConfirmaComandaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9F4A72029107200B93E3B /* ConfirmaComandaTableViewCell.swift */; };
+		DADEF69B2025C3F0000D5C7E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DADEF69A2025C3F0000D5C7E /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +73,53 @@
 		DA2A47DD202395A7007D79B1 /* UndeMancamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndeMancamTableViewCell.swift; sourceTree = "<group>"; };
 		DA2A47E12023A273007D79B1 /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PoiretOne-Regular.ttf"; path = "PapaCatering/PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 		DA2A47E3202456CA007D79B1 /* PapaCatering.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PapaCatering.entitlements; sourceTree = "<group>"; };
+		DA835A5120272B0E006AACA3 /* RezervariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervariViewController.swift; sourceTree = "<group>"; };
+		DA835A5320272BAD006AACA3 /* IconCategorieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCategorieCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA835A572027335F006AACA3 /* LocatieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatieModel.swift; sourceTree = "<group>"; };
+		DA835A5920273D0C006AACA3 /* ConfirmaRezervareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmaRezervareaViewController.swift; sourceTree = "<group>"; };
+		DA835A5B20274D8B006AACA3 /* MesajRezervareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajRezervareViewController.swift; sourceTree = "<group>"; };
+		DA835A5D2027810D006AACA3 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		DA835A5F202788E3006AACA3 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		DA835A6120278A60006AACA3 /* ProfilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilModel.swift; sourceTree = "<group>"; };
+		DA835A6320279086006AACA3 /* ProfileModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalViewController.swift; sourceTree = "<group>"; };
+		DA94D6532026119D00FE2F6F /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		DA94D6552026794400FE2F6F /* IntroRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroRestaurantViewController.swift; sourceTree = "<group>"; };
+		DAAD2E112025CC800042E44D /* PapaCatering-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PapaCatering-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAAD2E142025CCE10042E44D /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DAAD2E152025CCE10042E44D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DAAD2E162025CCE20042E44D /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DAAD2E172025CCE20042E44D /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DAAD2E182025CCE30042E44D /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DAAD2E192025CCE30042E44D /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DAAD2E1A2025CCE30042E44D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DAAD2E1B2025CCE30042E44D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DAAD2E1C2025CCE40042E44D /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DAAD2E1D2025CCE40042E44D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DAAD2E1E2025CCE40042E44D /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DAAD2E262025FEB70042E44D /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		DAAD2E282026014A0042E44D /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		DAB100D82029C172004A4DE9 /* MesajModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajModalViewController.swift; sourceTree = "<group>"; };
+		DAB100DA2029D88C004A4DE9 /* IstoricModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricModel.swift; sourceTree = "<group>"; };
+		DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricTableViewController.swift; sourceTree = "<group>"; };
+		DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricParentTableViewCell.swift; sourceTree = "<group>"; };
+		DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoricChildTableViewCell.swift; sourceTree = "<group>"; };
+		DAD9F48520285EC300B93E3B /* AdreseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdreseTableViewController.swift; sourceTree = "<group>"; };
+		DAD9F48720285F9700B93E3B /* AdreseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdreseTableViewCell.swift; sourceTree = "<group>"; };
+		DAD9F4892028636C00B93E3B /* AdresaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresaModel.swift; sourceTree = "<group>"; };
+		DAD9F48B202867C900B93E3B /* AdreseModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdreseModalViewController.swift; sourceTree = "<group>"; };
+		DAD9F48D202870DE00B93E3B /* CategoriiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriiCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAD9F4912028712700B93E3B /* AfisareCategoriiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfisareCategoriiCollectionViewController.swift; sourceTree = "<group>"; };
+		DAD9F49320287EC200B93E3B /* CategorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieModel.swift; sourceTree = "<group>"; };
+		DAD9F49520287F2900B93E3B /* ProdusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdusModel.swift; sourceTree = "<group>"; };
+		DAD9F4972028B5EA00B93E3B /* SemicircularBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemicircularBtn.swift; sourceTree = "<group>"; };
+		DAD9F4992028C14600B93E3B /* ProduseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduseViewController.swift; sourceTree = "<group>"; };
+		DAD9F49D2028C1E200B93E3B /* ProduseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduseTableViewCell.swift; sourceTree = "<group>"; };
+		DAD9F49F2028C3E800B93E3B /* CerinteSpeciale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerinteSpeciale.swift; sourceTree = "<group>"; };
+		DAD9F4A12028F36600B93E3B /* CerinteModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerinteModalViewController.swift; sourceTree = "<group>"; };
+		DAD9F4A32028FF8600B93E3B /* ConfirmaComandaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmaComandaViewController.swift; sourceTree = "<group>"; };
+		DAD9F4A5202907B200B93E3B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DAD9F4A72029107200B93E3B /* ConfirmaComandaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmaComandaTableViewCell.swift; sourceTree = "<group>"; };
+		DADEF69A2025C3F0000D5C7E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADEF69B2025C3F0000D5C7E /* libsqlite3.0.tbd in Frameworks */,
 				38E183C8BF56AA5ACC362EBC /* Pods_PapaCatering.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +138,18 @@
 		DA2A47B620236E79007D79B1 = {
 			isa = PBXGroup;
 			children = (
+				DAAD2E172025CCE20042E44D /* FMDatabase.h */,
+				DAAD2E1C2025CCE40042E44D /* FMDatabase.m */,
+				DAAD2E1A2025CCE30042E44D /* FMDatabaseAdditions.h */,
+				DAAD2E1D2025CCE40042E44D /* FMDatabaseAdditions.m */,
+				DAAD2E182025CCE30042E44D /* FMDatabasePool.h */,
+				DAAD2E162025CCE20042E44D /* FMDatabasePool.m */,
+				DAAD2E1B2025CCE30042E44D /* FMDatabaseQueue.h */,
+				DAAD2E152025CCE10042E44D /* FMDatabaseQueue.m */,
+				DAAD2E1E2025CCE40042E44D /* FMDB.h */,
+				DAAD2E142025CCE10042E44D /* FMResultSet.h */,
+				DAAD2E192025CCE30042E44D /* FMResultSet.m */,
+				DAAD2E112025CC800042E44D /* PapaCatering-Bridging-Header.h */,
 				DA2A47E12023A273007D79B1 /* PoiretOne-Regular.ttf */,
 				DA2A47C120236E79007D79B1 /* PapaCatering */,
 				DA2A47C020236E79007D79B1 /* Products */,
@@ -69,15 +169,49 @@
 		DA2A47C120236E79007D79B1 /* PapaCatering */ = {
 			isa = PBXGroup;
 			children = (
+				DAB100DC2029D927004A4DE9 /* IstoricTableViewController.swift */,
+				DAB100DE2029D969004A4DE9 /* IstoricParentTableViewCell.swift */,
+				DAB100E02029D981004A4DE9 /* IstoricChildTableViewCell.swift */,
+				DAB100DA2029D88C004A4DE9 /* IstoricModel.swift */,
+				DAB100D82029C172004A4DE9 /* MesajModalViewController.swift */,
+				DAD9F4A72029107200B93E3B /* ConfirmaComandaTableViewCell.swift */,
+				DAD9F4A32028FF8600B93E3B /* ConfirmaComandaViewController.swift */,
+				DAD9F4A5202907B200B93E3B /* Card.swift */,
+				DAD9F4A12028F36600B93E3B /* CerinteModalViewController.swift */,
+				DAD9F49F2028C3E800B93E3B /* CerinteSpeciale.swift */,
+				DAD9F4972028B5EA00B93E3B /* SemicircularBtn.swift */,
+				DA2A47C220236E79007D79B1 /* AppDelegate.swift */,
 				DA2A47E3202456CA007D79B1 /* PapaCatering.entitlements */,
 				DA2A47D42023798E007D79B1 /* GoogleService-Info.plist */,
-				DA2A47C220236E79007D79B1 /* AppDelegate.swift */,
 				DA2A47C420236E79007D79B1 /* RestauranteTableViewController.swift */,
+				DA2A47DD202395A7007D79B1 /* UndeMancamTableViewCell.swift */,
+				DAAD2E282026014A0042E44D /* RestaurantTableViewCell.swift */,
+				DA94D6552026794400FE2F6F /* IntroRestaurantViewController.swift */,
+				DAAD2E262025FEB70042E44D /* BorderedButton.swift */,
 				DA2A47C620236E79007D79B1 /* Main.storyboard */,
+				DA835A5B20274D8B006AACA3 /* MesajRezervareViewController.swift */,
+				DAD9F49D2028C1E200B93E3B /* ProduseTableViewCell.swift */,
+				DAD9F4992028C14600B93E3B /* ProduseViewController.swift */,
+				DAD9F48D202870DE00B93E3B /* CategoriiCollectionViewCell.swift */,
+				DAD9F49320287EC200B93E3B /* CategorieModel.swift */,
+				DAD9F4912028712700B93E3B /* AfisareCategoriiCollectionViewController.swift */,
+				DAD9F49520287F2900B93E3B /* ProdusModel.swift */,
+				DAD9F48720285F9700B93E3B /* AdreseTableViewCell.swift */,
+				DAD9F4892028636C00B93E3B /* AdresaModel.swift */,
+				DAD9F48B202867C900B93E3B /* AdreseModalViewController.swift */,
+				DAD9F48520285EC300B93E3B /* AdreseTableViewController.swift */,
+				DA835A5D2027810D006AACA3 /* ProfileTableViewController.swift */,
+				DA835A6320279086006AACA3 /* ProfileModalViewController.swift */,
+				DA835A5F202788E3006AACA3 /* ProfileTableViewCell.swift */,
+				DA835A6120278A60006AACA3 /* ProfilModel.swift */,
 				DA2A47C920236E79007D79B1 /* Assets.xcassets */,
 				DA2A47CB20236E79007D79B1 /* LaunchScreen.storyboard */,
 				DA2A47CE20236E79007D79B1 /* Info.plist */,
-				DA2A47DD202395A7007D79B1 /* UndeMancamTableViewCell.swift */,
+				DA94D6532026119D00FE2F6F /* RestaurantModel.swift */,
+				DA835A5120272B0E006AACA3 /* RezervariViewController.swift */,
+				DA835A5320272BAD006AACA3 /* IconCategorieCollectionViewCell.swift */,
+				DA835A572027335F006AACA3 /* LocatieModel.swift */,
+				DA835A5920273D0C006AACA3 /* ConfirmaRezervareaViewController.swift */,
 			);
 			path = PapaCatering;
 			sourceTree = "<group>";
@@ -94,6 +228,7 @@
 		FEF01D8BA57C751A32F935DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DADEF69A2025C3F0000D5C7E /* libsqlite3.0.tbd */,
 				6CDF91EFB0948F5E7C21D81F /* Pods_PapaCatering.framework */,
 			);
 			name = Frameworks;
@@ -134,6 +269,7 @@
 				TargetAttributes = {
 					DA2A47BE20236E79007D79B1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -250,9 +386,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA835A5E2027810D006AACA3 /* ProfileTableViewController.swift in Sources */,
+				DAAD2E272025FEB70042E44D /* BorderedButton.swift in Sources */,
+				DA835A5C20274D8B006AACA3 /* MesajRezervareViewController.swift in Sources */,
+				DAD9F4922028712700B93E3B /* AfisareCategoriiCollectionViewController.swift in Sources */,
+				DAAD2E212025CCE40042E44D /* FMResultSet.m in Sources */,
 				DA2A47DE202395A7007D79B1 /* UndeMancamTableViewCell.swift in Sources */,
+				DA835A6220278A60006AACA3 /* ProfilModel.swift in Sources */,
+				DAAD2E292026014A0042E44D /* RestaurantTableViewCell.swift in Sources */,
+				DA835A5220272B0E006AACA3 /* RezervariViewController.swift in Sources */,
+				DAD9F4A82029107200B93E3B /* ConfirmaComandaTableViewCell.swift in Sources */,
+				DA835A60202788E3006AACA3 /* ProfileTableViewCell.swift in Sources */,
+				DA94D6542026119D00FE2F6F /* RestaurantModel.swift in Sources */,
+				DAD9F48E202870DE00B93E3B /* CategoriiCollectionViewCell.swift in Sources */,
+				DA835A5A20273D0C006AACA3 /* ConfirmaRezervareaViewController.swift in Sources */,
+				DA835A6420279086006AACA3 /* ProfileModalViewController.swift in Sources */,
+				DAAD2E1F2025CCE40042E44D /* FMDatabaseQueue.m in Sources */,
+				DA94D6562026794400FE2F6F /* IntroRestaurantViewController.swift in Sources */,
+				DAAD2E222025CCE40042E44D /* FMDatabase.m in Sources */,
+				DAAD2E202025CCE40042E44D /* FMDatabasePool.m in Sources */,
+				DAD9F4A22028F36600B93E3B /* CerinteModalViewController.swift in Sources */,
+				DAD9F4A6202907B300B93E3B /* Card.swift in Sources */,
+				DAB100DB2029D88D004A4DE9 /* IstoricModel.swift in Sources */,
+				DAB100E12029D981004A4DE9 /* IstoricChildTableViewCell.swift in Sources */,
+				DAB100DD2029D927004A4DE9 /* IstoricTableViewController.swift in Sources */,
 				DA2A47C520236E79007D79B1 /* RestauranteTableViewController.swift in Sources */,
+				DAD9F4A42028FF8600B93E3B /* ConfirmaComandaViewController.swift in Sources */,
 				DA2A47C320236E79007D79B1 /* AppDelegate.swift in Sources */,
+				DAAD2E232025CCE40042E44D /* FMDatabaseAdditions.m in Sources */,
+				DAB100D92029C172004A4DE9 /* MesajModalViewController.swift in Sources */,
+				DAD9F48620285EC300B93E3B /* AdreseTableViewController.swift in Sources */,
+				DA835A5420272BAD006AACA3 /* IconCategorieCollectionViewCell.swift in Sources */,
+				DAB100DF2029D969004A4DE9 /* IstoricParentTableViewCell.swift in Sources */,
+				DAD9F49A2028C14700B93E3B /* ProduseViewController.swift in Sources */,
+				DAD9F4982028B5EA00B93E3B /* SemicircularBtn.swift in Sources */,
+				DAD9F49620287F2900B93E3B /* ProdusModel.swift in Sources */,
+				DAD9F49E2028C1E200B93E3B /* ProduseTableViewCell.swift in Sources */,
+				DAD9F48A2028636C00B93E3B /* AdresaModel.swift in Sources */,
+				DAD9F48820285F9700B93E3B /* AdreseTableViewCell.swift in Sources */,
+				DAD9F48C202867CA00B93E3B /* AdreseModalViewController.swift in Sources */,
+				DA835A582027335F006AACA3 /* LocatieModel.swift in Sources */,
+				DAD9F49420287EC200B93E3B /* CategorieModel.swift in Sources */,
+				DAD9F4A02028C3E800B93E3B /* CerinteSpeciale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +565,7 @@
 			baseConfigurationReference = 20605416BBCBE35EE745C6EF /* Pods-PapaCatering.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PapaCatering/PapaCatering.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85TX4DE8AK;
@@ -397,6 +573,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoline.ro.PapaCatering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PapaCatering-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +585,7 @@
 			baseConfigurationReference = 9F69F016BA1BD85664BA01CF /* Pods-PapaCatering.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PapaCatering/PapaCatering.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85TX4DE8AK;
@@ -414,6 +593,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoline.ro.PapaCatering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PapaCatering-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
