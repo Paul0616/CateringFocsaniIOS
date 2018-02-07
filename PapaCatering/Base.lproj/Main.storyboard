@@ -406,6 +406,7 @@
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_photo" translatesAutoresizingMaskIntoConstraints="NO" id="5eN-nn-mMU">
                                                             <rect key="frame" x="0.0" y="0.0" width="120" height="149.5"/>
                                                             <constraints>
+                                                                <constraint firstAttribute="width" constant="120" id="ra2-x9-8kp"/>
                                                                 <constraint firstAttribute="width" secondItem="5eN-nn-mMU" secondAttribute="height" multiplier="4:5" id="rqO-UP-PTJ"/>
                                                             </constraints>
                                                         </imageView>
