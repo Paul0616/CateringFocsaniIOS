@@ -22,6 +22,7 @@ class ProfileTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.tableView.delaysContentTouches = false
         let filemgr = FileManager.default
         let dirPath = filemgr.urls(for: .documentDirectory, in: .userDomainMask)
         

@@ -61,7 +61,7 @@ class ConfirmaRezervareaViewController: UIViewController {
         makeJSON()
         let dateconectare: String = (restaurant?.dbname_ip)! + "," + (restaurant?.dbname)! + "," + (restaurant?.passw)!
         let param = ["sirjson": jsonString!, "dateconectare": dateconectare]
-        Alamofire.request((restaurant.ip + "/setRezervarea.php"), parameters: param)
+        Alamofire.request((restaurant.ip + "/\(WebServerFiles.REZERVAREA)"), parameters: param)
             .responseJSON{(responseData) -> Void in
                 //print(responseData.result.isSuccess)
                 debugPrint(responseData.response!.statusCode)

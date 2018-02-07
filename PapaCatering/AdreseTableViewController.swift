@@ -41,7 +41,7 @@ class AdreseTableViewController: UITableViewController {
          
          } */
         
-        
+        self.tableView.delaysContentTouches = false
         let cateringDB = FMDatabase(path: databasePath as String)
         
         if (cateringDB.open()){
