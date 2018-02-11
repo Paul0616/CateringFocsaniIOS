@@ -78,6 +78,25 @@ class ConfirmaComandaViewController: UIViewController, UITableViewDataSource {
             showToast(messages: "Valoare minima a comenzii\n trebuie sa fie de cel putin \(restaurant.valoareMinima) RON.\n Va multumim pentru intelegere!!!", background: UIColor.red)
             return
         }
+        //VERIFIC DATA SA CORESPUNDA INTERVALULUI DE CATERING
+        
+        let calendar = Calendar.current;
+        let hour: String = String(calendar.component(Calendar.Component.hour, from: Date.init()))
+        let minute : String = String(calendar.component(Calendar.Component.minute, from: Date.init()))
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "ro_RO")
+        dateFormatter.dateFormat = "HH:mm:ss"
+        let now = dateFormatter.date(from: "\(hour):\(minute):00")
+        if !(now! >= restaurant.start_catering && now! <= restaurant.end_catering){
+            let d = Calendar.init(identifier: Calendar.Identifier.gregorian)
+            let startCatHour = d.component(Calendar.Component.hour, from: restaurant.start_catering)
+            let endCatHour = d.component(Calendar.Component.hour, from: restaurant.end_catering)
+            let startCatMinute = d.component(Calendar.Component.minute, from: restaurant.start_catering)
+            let endCatMinute = d.component(Calendar.Component.minute, from: restaurant.end_catering)
+            showToast(messages: "Orele intre care se fac comenzi sunt:\n \(startCatHour):\(startCatMinute) - \(endCatHour):\(endCatMinute) \nVa multumim pentru intelegere!", background: UIColor.red)
+            return
+        }
+        
         //PREGATESC SIRUL JSON PENTRU TRIMITERE
         makeJSON()
         //TRIMIT CU ALAMOFIRE

@@ -28,6 +28,10 @@ class RestaurantModel: NSObject {
     var mesajCatering: String
     var mesajRezervare: String
     var scor: Int
+    var start_catering: Date
+    var end_catering: Date
+    var start_rezervare: String
+    var end_rezervare: String
     //MARK: - Initializare
     
     init?(id: Int,
@@ -47,7 +51,11 @@ class RestaurantModel: NSObject {
           valoareMinima: Int,
           mesajCatering: String,
           mesajRezervare: String,
-          scor: Int) {
+          scor: Int,
+          start_catering: Date,
+          end_catering: Date,
+          start_rezervare: String,
+          end_rezervare: String) {
         
         //Initializeaza proprietatile
         self.id = id
@@ -68,5 +76,9 @@ class RestaurantModel: NSObject {
         self.mesajCatering = mesajCatering
         self.mesajRezervare = mesajRezervare
         self.scor = scor
+        self.start_catering = start_catering
+        self.end_catering = end_catering
+        self.start_rezervare = start_rezervare
+        self.end_rezervare = end_rezervare
     }
 }

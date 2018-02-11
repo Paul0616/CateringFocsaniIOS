@@ -90,7 +90,8 @@ class AfisareCategoriiCollectionViewController: UICollectionViewController, UICo
                             self.categorii += [categ]
                         }
                         self.nomenclatorCategorii.removeAll()
-                        Alamofire.request("http://www.ondesign.ro/getIconuriCategoriiV2.php")
+                    
+                        Alamofire.request(WebServerFiles.WEB_LISTA_ICONURI_CATEGORII)
                             .responseJSON{(responseData) -> Void in
                                 if((responseData.result.value) != nil){
                                     let swiftyJsonVar1 = JSON(responseData.result.value!)

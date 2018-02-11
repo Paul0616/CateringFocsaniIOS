@@ -57,6 +57,9 @@ class ConfirmaRezervareaViewController: UIViewController {
         
     }
     @IBAction func trimiteRezervarea(_ sender: Any) {
+        //VERIFICA DACA E IN INTERVALUL DE REZERVARI
+        
+        
         actualizeazaScorRestaurant()
         makeJSON()
         let dateconectare: String = (restaurant?.dbname_ip)! + "," + (restaurant?.dbname)! + "," + (restaurant?.passw)!

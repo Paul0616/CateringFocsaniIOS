@@ -423,7 +423,7 @@
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIW-3U-BhT">
-                                                            <rect key="frame" x="120" y="59" width="155" height="13.5"/>
+                                                            <rect key="frame" x="125" y="59" width="155" height="13.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="155" id="DTu-iZ-Bj3"/>
                                                             </constraints>
@@ -432,7 +432,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pret: 0.0 RON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lc5-DL-2qh">
-                                                            <rect key="frame" x="120" y="76.5" width="155" height="21"/>
+                                                            <rect key="frame" x="125" y="76.5" width="155" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="155" id="2K6-62-VXH"/>
                                                             </constraints>
@@ -441,7 +441,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DENUMIRE PRODUS DENUMIRE PRODUS DENUMIRE PRODUS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Uw-2pH">
-                                                            <rect key="frame" x="120" y="1.5" width="155" height="57.5"/>
+                                                            <rect key="frame" x="125" y="1.5" width="155" height="57.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="155" id="GUf-lx-3wQ"/>
                                                             </constraints>
@@ -457,7 +457,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7I-sE-Y8e" customClass="CerinteSpeciale" customModule="PapaCatering">
-                                                            <rect key="frame" x="167" y="111.5" width="108" height="30"/>
+                                                            <rect key="frame" x="172" y="111.5" width="108" height="30"/>
                                                             <state key="normal" title="cerinte speciale">
                                                                 <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -490,12 +490,12 @@
                                                         <constraint firstItem="awp-3f-Vsv" firstAttribute="leading" secondItem="5eN-nn-mMU" secondAttribute="leading" id="QeG-FQ-29a"/>
                                                         <constraint firstItem="lc5-DL-2qh" firstAttribute="leading" secondItem="oIW-3U-BhT" secondAttribute="leading" id="REr-jF-oaG"/>
                                                         <constraint firstItem="lc5-DL-2qh" firstAttribute="top" secondItem="oIW-3U-BhT" secondAttribute="bottom" constant="4" id="Sc2-53-koD"/>
-                                                        <constraint firstItem="gPl-Uw-2pH" firstAttribute="leading" secondItem="5eN-nn-mMU" secondAttribute="trailing" id="TCR-jc-oCd"/>
+                                                        <constraint firstItem="gPl-Uw-2pH" firstAttribute="leading" secondItem="5eN-nn-mMU" secondAttribute="trailing" constant="5" id="TCR-jc-oCd"/>
                                                         <constraint firstItem="WAU-sl-pTv" firstAttribute="top" secondItem="4oL-Ad-G1k" secondAttribute="bottom" id="VQk-uZ-xP8"/>
                                                         <constraint firstItem="4oL-Ad-G1k" firstAttribute="top" secondItem="Ls3-8N-4R9" secondAttribute="top" id="ZOG-q7-5qY"/>
                                                         <constraint firstItem="lc5-DL-2qh" firstAttribute="trailing" secondItem="oIW-3U-BhT" secondAttribute="trailing" id="ZuF-q7-ak4"/>
                                                         <constraint firstItem="oIW-3U-BhT" firstAttribute="top" secondItem="gPl-Uw-2pH" secondAttribute="bottom" id="ak9-5d-Aq0"/>
-                                                        <constraint firstItem="gPl-Uw-2pH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="awp-3f-Vsv" secondAttribute="trailing" id="edE-8x-MTG"/>
+                                                        <constraint firstItem="gPl-Uw-2pH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="awp-3f-Vsv" secondAttribute="trailing" constant="5" id="edE-8x-MTG"/>
                                                         <constraint firstItem="F7I-sE-Y8e" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5eN-nn-mMU" secondAttribute="trailing" id="egW-3V-Oll"/>
                                                         <constraint firstItem="awp-3f-Vsv" firstAttribute="top" secondItem="5eN-nn-mMU" secondAttribute="top" id="g2P-WV-cN4"/>
                                                         <constraint firstAttribute="bottom" secondItem="5eN-nn-mMU" secondAttribute="bottom" id="ie4-P3-N2G"/>

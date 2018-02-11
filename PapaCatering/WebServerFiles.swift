@@ -10,6 +10,7 @@
 
 struct WebServerFiles {
     static let WEB_LISTA_RESTAURANTE: String = "https://www.duoline.ro/catering/getRestaurante.php"
+    static let WEB_LISTA_ICONURI_CATEGORII: String = "https://www.duoline.ro/catering/getIconuriCategoriiV2.php"
     static let CATEGORIA: String = "getCategorii.php"
     static let ISTORIC: String = "getIstoric1.php"
     static let COMANDA: String = "setComanda.php"

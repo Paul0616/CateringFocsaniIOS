@@ -25,6 +25,8 @@ class RezervariViewController: UIViewController, UICollectionViewDataSource, UIC
     var dataRez: String!
     var nrPers: Int = 0
     var Locat: String!
+    var timeS: String = ""
+    var timeE: String = ""
     
     //MARK: -
     override func viewDidLoad() {
@@ -33,6 +35,12 @@ class RezervariViewController: UIViewController, UICollectionViewDataSource, UIC
         nrPersoaneCollection.delegate = self
         pozeLocatii.dataSource = self
         pozeLocatii.delegate = self
+        let startR = restaurant.start_rezervare
+        let endR = restaurant.end_rezervare
+        
+        timeS = String(startR[...startR.index(startR.endIndex, offsetBy: -4)])
+        timeE = String(endR[...endR.index(endR.endIndex, offsetBy: -4)])
+        title = "REZERVARI (intre " + timeS + " si " + timeE + ")"
         datePicker.minimumDate = Date()
         self.navigationController!.navigationBar.barTintColor = UIColor(red: 0.782, green: 0, blue: 0.194, alpha: 1)
         
@@ -173,10 +181,56 @@ class RezervariViewController: UIViewController, UICollectionViewDataSource, UIC
         dateFormatter.locale = Locale(identifier: "ro_RO")
         dateFormatter.dateFormat = "EEE, dd MMM YYY, HH:mm"
         datarezervarii.text = "Data: " + dateFormatter.string(from: datePicker.date)
-        confirmaBtnState()
+        
+        if(comparaDate(start_rezervari: restaurant.start_rezervare, end_rezervari: restaurant.end_rezervare)){
+            confirmaBtnState()
+        } else {
+            
+            showToast(messages: "Alege o ora care se incadreaza in programul restaurantului.", background: UIColor.red)
+            let now = Date.init()
+            datePicker.setDate(now, animated: true)
+            return
+        }
+        
     }
-   
-    
+    //MARK: - functii
+    func comparaDate(start_rezervari: String, end_rezervari: String) -> Bool {
+        let dateFormatter1 = DateFormatter()
+        dateFormatter1.locale = Locale(identifier: "ro_RO")
+        dateFormatter1.dateFormat = "HH:mm:ss"
+        let start_rezervari = dateFormatter1.date(from: start_rezervari)
+        let end_rezervari = dateFormatter1.date(from: end_rezervari)
+        var now = datePicker.date
+        let calendar = Calendar.current
+        let h = calendar.component(Calendar.Component.hour, from: now)
+        let m = calendar.component(Calendar.Component.minute, from: now)
+        now = dateFormatter1.date(from: "\(h):\(m):00")!
+        if(start_rezervari! <= now && end_rezervari! > now){
+            return true
+        } else {
+            return false
+        }
+    }
+    func showToast(messages: String, background: UIColor){
+        let toastLabel = UILabel(frame: CGRect(x: Int(self.view.frame.size.width/2 - 100), y: 150, width: 200, height: 150))
+        toastLabel.backgroundColor = background
+        toastLabel.textColor = UIColor.white
+        toastLabel.textAlignment = .center
+        toastLabel.numberOfLines = 6
+        toastLabel.font = UIFont(name: "", size: 12)
+        // toastLabel.adjustsFontSizeToFitWidth = true
+        
+        toastLabel.text = messages
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        self.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 10.0, delay: 0.1, options: .curveEaseOut, animations: {
+            toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
+    }
     //MARK: - button enabled
     func confirmaBtnState(){
         if dataRez != nil && Locat != nil && nrPers != 0 {

@@ -124,7 +124,16 @@ class RestauranteTableViewController: UITableViewController {
                             let valoare = swiftyJsonVar[i]["valoare_minima"].intValue
                             let mesajcatering = swiftyJsonVar[i]["mesaj_catering"].stringValue
                             let mesajrezervare = swiftyJsonVar[i]["mesaj_rezervare"].stringValue
-                            guard let restaurant = RestaurantModel(id: id, denumireRestaurant: denumire, telefon: telefon, linkPoza: linkPoza, catering: catering, rezervari: rezervari, linkLocatia1: link1, linkLocatia2: link2, linkLocatia3: link3, dbname_ip: dbname_ip, dbname: dbname, passw: pass, ip: ip, locatiiLivrare: locatiilivrare, valoareMinima: valoare, mesajCatering: mesajcatering, mesajRezervare: mesajrezervare, scor: 0) else {
+                            let start_cateringS = swiftyJsonVar[i]["start_catering"].stringValue
+                            let end_cateringS = swiftyJsonVar[i]["end_catering"].stringValue
+                            let dateFormatter = DateFormatter()
+                            dateFormatter.locale = Locale(identifier: "ro_RO")
+                            dateFormatter.dateFormat = "HH:mm:ss"
+                            let start_catering = dateFormatter.date(from: start_cateringS)
+                            let end_catering = dateFormatter.date(from: end_cateringS)
+                            let start_rezervare = swiftyJsonVar[i]["start_rezervari"].stringValue
+                            let end_rezervare = swiftyJsonVar[i]["end_rezervari"].stringValue
+                            guard let restaurant = RestaurantModel(id: id, denumireRestaurant: denumire, telefon: telefon, linkPoza: linkPoza, catering: catering, rezervari: rezervari, linkLocatia1: link1, linkLocatia2: link2, linkLocatia3: link3, dbname_ip: dbname_ip, dbname: dbname, passw: pass, ip: ip, locatiiLivrare: locatiilivrare, valoareMinima: valoare, mesajCatering: mesajcatering, mesajRezervare: mesajrezervare, scor: 0, start_catering: start_catering!, end_catering: end_catering!, start_rezervare: start_rezervare, end_rezervare: end_rezervare) else {
                                 fatalError("Unable to instantiate restaurant1")
                             }
                             self.restauranteNet += [restaurant]
